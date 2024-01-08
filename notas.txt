@@ -1,3 +1,6 @@
 primer avance: minuto 28
 segundo avance: minuto 46
-tercer avance: 1:05 hhmm
+tercer avance: 1:05 hh
+cuarto avance: 1:20 hh
+quinto avance: 1:25 hh
+avance 6: 2hh

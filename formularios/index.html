@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    
+    <h1>Formularios</h1>
+
+    <form>
+        <label for="nombre">Ingresa tu nombre</label>
+        <input type="text" id="nombre">
+        <br><br>
+
+        <label for="email">Ingresa tu email</label>
+        <input type="email" id="email">
+        <br></br>
+
+        <label for="password">contraseña</label>
+        <input type="password" placeholder="ingresa la contraseña" id="password">
+        <br></br>
+
+        <label for="color">selecciona el color</label>
+        <input type="color" id="color">
+        <br></br>
+
+        <label for="date">selecciona la fecha</label>
+        <input type="date" id="date">
+        <br></br>
+
+        <label for="numero">ingrese su telefono</label>
+        <input type="number" id="numero">
+        <br></br>
+
+        <label >Elige el pais</label>
+        <select>
+            <option value="COL">Colombia</option>
+            <option value="RU">Rusia</option>
+            <option value="NO" selected>Otro</option>
+        </select>
+        <br><br>
+
+        <!-- selectores radio-button -->
+        <label>Seleccione el horio de trabajo</label>
+        <br><br>
+
+        <!-- input dentro de label: reconoce el click en el texto de label -->
+        <label>
+            <input type="radio" name="horario"> Mañana
+        </label>
+        <label>
+            <input type="radio" name="horario"> Tarde
+        </label>
+        <label>
+            <input type="radio" name="horario"> Noche 
+        </label>
+        <br><br>
+
+        <label>
+            <input type="checkbox"> Acepta terminos y condiciones
+        </label>
+        <br><br>
+
+        <label for="">Deja tus comentarios</label>
+        <br>
+        <textarea cols="30" rows="5"></textarea>
+        <br><br>
+        
+        <input type="submit">
+
+        <input type="reset" value="borrar todo"> 
+    </form>
+
+</body>
+</html>
